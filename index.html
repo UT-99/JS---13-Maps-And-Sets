@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>JS Maps And Sets</title>
+</head>
+<body>
+    <h1 class="mainheading">JS Handson Maps And Sets</h1>
+    
+    <div class="boxes">
+        <h2>Ques 1.You are given a string (STR) of length N, consisting of only the lower case English alphabet.
+            Your task is to remove all the duplicate occurrences of characters in the string. </h2>
+
+        <h3>Input: abcadeecfb</h3>
+        <h3>Output: abcdef</h3>
+        <pre class="code">
+            let myStr ='abcadeecfb';
+            myStrArr= myStr.split('');
+            
+            for(let i = 0 ; i < myStrArr.length ; i++){
+                for(let j =i+1 ; j < myStrArr.length ; j++){
+                    if(myStrArr[i] === myStrArr[j]){
+                      myStrArr.splice(j, 1);
+                    }
+                }    
+            }
+            myStr = myStrArr.join("");
+            
+            console.log('After Deletion : ',myStr);
+
+
+        </pre>
+    </div>
+
+
+    
+   
+    <br>
+    <hr>
+    <br>
+
+
+    <div class="boxes">
+        <h2>Ques 2 . </h2>
+        <pre class="code">
+
+
+        </pre>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
